@@ -1,0 +1,17 @@
+# составить календарь на определенный год
+
+
+import calendar
+
+
+def choose_calendar(year):
+    calendarik = calendar.calendar(year)
+    print(calendarik)
+
+
+def main():
+    choose_calendar(int(input('Введите год для вывода календаря ', )))
+
+
+if __name__ == "__main__":
+    main()
